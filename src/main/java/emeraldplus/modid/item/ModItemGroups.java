@@ -2,7 +2,6 @@ package emeraldplus.modid.item;
 
 import emeraldplus.modid.EmeraldPlus;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.fabricmc.fabric.impl.itemgroup.FabricItemGroupBuilderImpl;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -16,11 +15,15 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.NETHER_EMERALD))
                     .displayName(Text.translatable("itemgroup.emerald-plus.netherald_items"))
                     .entries((displayContext, entries) -> {
+
+                        // remember to add entry (new items) here
                         entries.add(ModItems.NETHER_EMERALD);
+                        entries.add(ModItems.NETHERALD_SWORD);
+
                     })
                     .build());
 
     public static void registerItemGroups() {
-        EmeraldPlus.LOGGER.info("Registering Item GRoups rn");
+        EmeraldPlus.LOGGER.info("Registering Nether_Emerald Item Group");
     }
 }
