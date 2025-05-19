@@ -13,7 +13,7 @@ public class ModItems {
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(EmeraldPlus.MOD_ID, name), item);
-    }
+   }
 
     public static void registerModItems() {
         EmeraldPlus.LOGGER.info("Registering Mod Items for " + EmeraldPlus.MOD_ID);
