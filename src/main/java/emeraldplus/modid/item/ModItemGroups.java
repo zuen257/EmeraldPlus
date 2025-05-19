@@ -19,7 +19,8 @@ public class ModItemGroups {
                         // remember to add entry (new items) here
                         entries.add(ModItems.NETHER_EMERALD);
                         entries.add(ModItems.NETHERALD_SWORD);
-
+                        entries.add(ModItems.NETHERALD_AXE);
+                        entries.add(ModItems.NETHERALD_PICKAXE);
                     })
                     .build());
 

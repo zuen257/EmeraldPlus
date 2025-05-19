@@ -3,5 +3,9 @@
 
   "item.emerald-plus.netherald_sword": "Netherald Sword",
 
+  "item.emerald-plus.netherald_axe": "Netherald Axe",
+
+  "item.emerald-plus.netherald_pickaxe": "Netherald Pickaxe",
+
   "itemgroup.emerald-plus.netherald_items": "Netherald Items"
 }
