@@ -21,6 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.NETHERALD_SWORD);
                         entries.add(ModItems.NETHERALD_AXE);
                         entries.add(ModItems.NETHERALD_PICKAXE);
+                        entries.add(ModItems.NETHERALD_SHOVEL);
                     })
                     .build());
 

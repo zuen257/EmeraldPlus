@@ -7,7 +7,7 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
 
-public class NetheraldPickaxe implements ToolMaterial {
+public class NetheraldShovel implements ToolMaterial {
 
     @Override
     public int getDurability() {
@@ -21,7 +21,7 @@ public class NetheraldPickaxe implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 4.5F;
+        return 4.0F;
     }
 
     @Override
