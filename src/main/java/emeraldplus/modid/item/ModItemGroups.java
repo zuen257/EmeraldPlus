@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
+
 public class ModItemGroups {
     public static final ItemGroup NETHERALD_ITEMS_GROUPS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(EmeraldPlus.MOD_ID, "netherald_items"),
@@ -26,6 +27,7 @@ public class ModItemGroups {
                     .build());
 
     public static void registerItemGroups() {
+
         EmeraldPlus.LOGGER.info("Registering Nether_Emerald Item Group");
     }
 }
