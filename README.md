@@ -1,6 +1,6 @@
 # EmeraldPlus
 
-This is a minecraft mod!!
+This is a fabric minecraft mod for version 1.21.1!!
 Adding a new armor and tool set using a combination of netherite and emerald!
 
 The ore, *netherald*, can be crafted like so:
