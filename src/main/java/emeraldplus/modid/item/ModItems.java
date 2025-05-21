@@ -31,6 +31,22 @@ public class ModItems {
             .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.NETHERALD, 2, -3.0F))));
 
     // armor
+    public static final Item NETHERALD_HELMET = registerItem("netherald_helmet",
+            new ArmorItem(ModArmorMaterials.NETHERALD_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(40))));
+
+    public static final Item NETHERALD_CHESTPLATE = registerItem("netherald_chestplate",
+            new ArmorItem(ModArmorMaterials.NETHERALD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(40))));
+
+    public static final Item NETHERALD_LEGGINGS = registerItem("netherald_leggings",
+            new ArmorItem(ModArmorMaterials.NETHERALD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(40))));
+
+    public static final Item NETHERALD_BOOTS = registerItem("netherald_boots",
+            new ArmorItem(ModArmorMaterials.NETHERALD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(40))));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(EmeraldPlus.MOD_ID, name), item);

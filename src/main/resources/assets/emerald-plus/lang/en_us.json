@@ -2,12 +2,14 @@
   "item.emerald-plus.nether_emerald": "Netherald",
 
   "item.emerald-plus.netherald_sword": "Netherald Sword",
-
   "item.emerald-plus.netherald_axe": "Netherald Axe",
-
   "item.emerald-plus.netherald_pickaxe": "Netherald Pickaxe",
-
   "item.emerald-plus.netherald_shovel": "Netherald Shovel",
+
+  "item.emerald-plus.netherald_helmet": "Netherald Helmet",
+  "item.emerald-plus.netherald_chestplate": "Netherald Chestplate",
+  "item.emerald-plus.netherald_leggings": "Netherald Leggings",
+  "item.emerald-plus.netherald_boots": "Netherald Boots",
 
   "itemgroup.emerald-plus.netherald_items": "Netherald Items"
 }

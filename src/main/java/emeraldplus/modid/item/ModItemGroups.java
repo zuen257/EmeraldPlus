@@ -17,12 +17,22 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.emerald-plus.netherald_items"))
                     .entries((displayContext, entries) -> {
 
-                        // remember to add entry (new items) here
+                        // remember to add entry (new items) here:
+
+                        // ore
                         entries.add(ModItems.NETHER_EMERALD);
+
+                        // tools
                         entries.add(ModItems.NETHERALD_SWORD);
                         entries.add(ModItems.NETHERALD_AXE);
                         entries.add(ModItems.NETHERALD_PICKAXE);
                         entries.add(ModItems.NETHERALD_SHOVEL);
+
+                        // armor
+                        entries.add(ModItems.NETHERALD_HELMET);
+                        entries.add(ModItems.NETHERALD_CHESTPLATE);
+                        entries.add(ModItems.NETHERALD_LEGGINGS);
+                        entries.add(ModItems.NETHERALD_BOOTS);
                     })
                     .build());
 
