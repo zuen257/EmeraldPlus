@@ -8,6 +8,8 @@ The ore, *netherald*, can be crafted like so:
 
 **Here are some in-game screenshots:**
 
+![selfie](https://github.com/user-attachments/assets/0dc84bf8-adba-4aba-82aa-36958b2de766)
+
 <img width="1440" alt="item_group" src="https://github.com/user-attachments/assets/5f4088c6-9591-41c3-939f-8c0ca52ca1c9" />
 
 <img width="1440" alt="pickaxe" src="https://github.com/user-attachments/assets/35ad9264-0881-4197-b193-a94bed074454" />
