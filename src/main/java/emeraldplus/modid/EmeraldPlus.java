@@ -1,5 +1,6 @@
 package emeraldplus.modid;
 
+import emeraldplus.modid.datagen.ModModelProvider;
 import emeraldplus.modid.item.ModItemGroups;
 import emeraldplus.modid.item.ModItems;
 import net.fabricmc.api.ModInitializer;

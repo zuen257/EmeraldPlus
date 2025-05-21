@@ -28,7 +28,7 @@ public class ModArmorMaterials {
                 map.put(ArmorItem.Type.BODY, 11);
 
             }), 25, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(ModItems.NETHER_EMERALD),
-                    List.of(new ArmorMaterial.Layer(Identifier.of(EmeraldPlus.MOD_ID, "netherald"))), 0,0.2));
+                    List.of(new ArmorMaterial.Layer(Identifier.of(EmeraldPlus.MOD_ID, "netherald"))), 0,0.2F));
 
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {
